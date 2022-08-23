@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.hero{
+    min-height: 100vh;
+    width: 100%;
+    background-color: black;
+    background-image: url(https://media1.giphy.com/media/YOAqV6wRGOEVM48svy/giphy.gif?cid=ecf05e477pn2gu3g12yw1xet05l6g20dsf0z590m8ujgiq33&rid=giphy.gif&ct=g);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #fff;
+    padding: 0;
+    border: 0 solid #000;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0;
+    
+}
+.logo{
+    width: 200px;
+    
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 100px;
+    
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+h1{
+    padding: 50px;
+}
+.hero h1{
+    font-size: 100px;
+    margin-top: 12%;
+    
+}
+.hero button{
+    background: #393939;
+    border: 0;
+    outline: none;
+    padding: 15px 35px;
+    color: #fff;
+    margin-top: 25px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.indicator span{
+    display: inline-block;
+    background: #3a3a3a;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.indicator{
+    margin-top: 150px ;
+}
+.indicator span.active{
+    background: #fbfbfb ;
+}
+.cta{
+    position: absolute;
+    width: 25%;
+    min-width: 250px;
+    right: 8%;
+    bottom: 100px;
+}
+.cta ul li a{
+    color: #fff;
+    text-decoration: none;
+
+}
+.bca ul li a{
+    color: #fff;
+    text-decoration: none;
+    margin: 20px;
+}
